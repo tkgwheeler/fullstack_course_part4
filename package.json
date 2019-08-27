@@ -1,0 +1,23 @@
+{
+  "name": "fullstack_course_part4",
+  "version": "0.0.1",
+  "description": "Full stack Part 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkgwheeler/fullstack_course_part4.git"
+  },
+  "author": "Tom Wheeler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkgwheeler/fullstack_course_part4/issues"
+  },
+  "homepage": "https://github.com/tkgwheeler/fullstack_course_part4#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
