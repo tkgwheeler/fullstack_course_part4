@@ -1,8 +1,9 @@
 const http = require("http");
+const express = require("Express");
+const app = express();
 
-const app = http.createServer((req, res) => {
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello World");
+app.get("/", (request, response) => {
+  response.send("<h1> Hellow World Woop Woop</h1>");
 });
 
 const port = 3001;
